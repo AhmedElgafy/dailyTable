@@ -1,0 +1,78 @@
+*,p{
+    font-size: 1.3rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+table
+{
+    border: solid black;
+    width: 90%;
+    margin-left:auto ;
+    margin-right:auto ;
+    display: none;
+    
+}
+h1{text-align: center;
+margin-bottom:2rem ;
+margin-top:.3rem ;
+}
+td 
+{
+    text-align: center;
+    width: 0px;
+    color :saddlebrown;
+    border-bottom: solid black;
+    border-left:solid black ;
+}
+tr{
+    height: 90px;
+    width: 80%;
+}
+td:nth-child(2)
+{
+    width: 20%;
+}
+td:nth-child(1)
+{
+    width: 80%;
+}
+#dataInput{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 90%;
+    margin: auto;
+}
+#dataInput>*
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .2rem;
+    display: block;
+    text-align: center;
+    
+}
+.worningText
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto ;
+}
+#ptn
+{
+    border-radius: 50px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+}
+#ptn:hover
+{
+    background-color: white;
+    color: blueviolet;
+    border: black solid;
+    cursor: pointer;
+}
