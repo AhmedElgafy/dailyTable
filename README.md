@@ -1,1 +1,1 @@
-# dailyTable
+## dailyTable generator
