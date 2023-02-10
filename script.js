@@ -2,7 +2,7 @@
 
 var daysName=["الأحد","الأثنين","الثلاثاء",
 "الأبعاء","الخميس","الجمعة","السبت"]
-var worningText=["اكتب التاريخ عدل يابو خالو","ما قولنا نكتب عدل بااااااااقة"]
+var worningText=["اكتب التاريخ عدل يابو خالو*","ما قولنا نكتب عدل بااااااااقة*"]
 var visited=0
 function worning()
 {
@@ -28,6 +28,8 @@ function genratDays(from,len)
 {
     var days=[]
     var fulDate=new Date(from)
+        var head = document.getElementById("head")
+        head.style.margin=0
 
         for(let i=0;i<len;i++)
         {
