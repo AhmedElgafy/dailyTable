@@ -1,5 +1,5 @@
 *,p{
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     padding: 0px;
     margin: 0px;
     font-family: 'Cairo', sans-serif;
@@ -18,7 +18,7 @@ table
 }
 h1{text-align: center;
 margin-bottom:2rem ;
-margin-top:20% ;
+margin-top:10% ;
 }
 td 
 {

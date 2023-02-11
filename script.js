@@ -4,6 +4,7 @@ var daysName=["الأحد","الأثنين","الثلاثاء",
 "الأبعاء","الخميس","الجمعة","السبت"]
 var worningText=["اكتب التاريخ عدل يابو خالو*","ما قولنا نكتب عدل بااااااااقة*"]
 var visited=0
+
 function worning()
 {
     var btn =document.getElementById("ptn")
@@ -36,7 +37,7 @@ function genratDays(from,len)
             let day=fulDate.getDate()
             let month=fulDate.getMonth()+1
             let year=fulDate.getFullYear()
-            days.push(toArabicNumeral(day+"/"+month+"/"+year))
+            days.push(toArabicNumeral(year+"/"+month+"/"+day))
             fulDate.setDate(fulDate.getDate()+1)
         }
     
@@ -90,4 +91,3 @@ addEventListener('keydown', (event) =>
 });
 
 
-var dad= new Date("MM/DD/YYYY")
